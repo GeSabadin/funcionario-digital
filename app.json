@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1ad2fee5-d3c0-4508-8f85-4804a9704728"
+      }
+    },
+    "owner": "sabading"
   }
 }
