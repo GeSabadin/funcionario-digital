@@ -3,8 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function MenuScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Menu</Text>
-      {/* Adicione aqui os itens do menu */}
+      <Text style={styles.text}>john é bobo</Text>
     </View>
   );
 }
@@ -16,8 +15,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
   },
-  title: {
-    fontSize: 24,
+  text: {
+    fontSize: 32,
     fontWeight: 'bold',
+    color: '#1D3D47',
   },
 });

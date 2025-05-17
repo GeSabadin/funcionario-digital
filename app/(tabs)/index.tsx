@@ -12,7 +12,7 @@ export default function HomeScreen() {
   const router = useRouter();
 
   const handleMenuPress = () => {
-    router.push('/(tabs)/menu/index');
+    router.push('/menu');
   };
 
   return (
